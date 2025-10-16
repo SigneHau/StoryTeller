@@ -26,7 +26,7 @@ export default function Home() {
         </View>
 
         <GradientButton
-          text="Lav din historie"
+          text="Lav din historien"
           colors={["#9f16dfd7", "#f0a70aff"]}
           onPress={() => console.log("Du har trykket på mig")}
           icon={<MaterialCommunityIcons name="plus-circle" size={30} color="white" />}
