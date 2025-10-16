@@ -4,11 +4,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { CategorySelector } from "../../components/CategorySelector";
 import { KeyWordInput } from "../../components/KeyWordInput";
 import { StoryCard } from "../../components/StoryCard";
+import { SecondaryButton } from '../../components/SecondaryButton';
 
 
+type CategoryKey = "pirate" | "wizard-hat" | "space" | "horse";
 
 export default function Explore() {
-  type CategoryKey = "pirate" | "wizard-hat" | "space" | "horse";
   const [selectedCategory, setSelectedCategory] = useState<CategoryKey | null>(null);
 
   return (
@@ -58,6 +59,11 @@ export default function Explore() {
               imageUrl="https://images.unsplash.com/photo-1558852842-e7540873e69a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fHBsYXklMjBjYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400"
             />
           </View>
+
+           <SecondaryButton
+                      text="Begynd"
+                      onPress={() => alert("Du trykkede på knappen!")}
+                    />
 
         </View>
       </ScrollView>

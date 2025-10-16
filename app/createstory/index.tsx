@@ -7,10 +7,9 @@ import { KeyWordInput } from "../../components/KeyWordInput";
 import { Maskot } from "../../components/Maskot"
 
 
-
+type CategoryKey = "pirate" | "wizard-hat" | "space" | "horse";
 
 export default function CreateStory() {
-  type CategoryKey = "pirate" | "wizard-hat" | "space" | "horse";
   const [selectedGenre, setSelectedGenre] = useState<CategoryKey | null>(null);
 
   return (

@@ -2,7 +2,6 @@ import { Text, View, ScrollView } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { GradientButton } from '../components/GradientButton'
-import { SecondaryButton } from '../components/SecondaryButton'
 import { StoryCard } from "../components/StoryCard";
 
 export default function Home() {
@@ -33,10 +32,7 @@ export default function Home() {
             onPress={() => console.log("Du har trykket på mig")}
           />
 
-          <SecondaryButton
-            text="Begynd"
-            onPress={() => alert("Du trykkede på knappen!")}
-          />
+         
         </View>
       </ScrollView>
     </SafeAreaView>
