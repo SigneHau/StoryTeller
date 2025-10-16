@@ -49,13 +49,13 @@ export default function Explore() {
           <Text className="text-2l font-semibold mt-10 mb-6">Vælg andres historier</Text>
           <View className="flex-row flex-wrap justify-center">
             <StoryCard
-              title="Den lilla uovervindelige elefant"
-              imageUrl="https://media.istockphoto.com/id/867387008/photo/a-cute-blue-cartoon-elephant.jpg?s=2048x2048&w=is&k=20&c=NdAs19PCVJI0jtjpVwYd5YwVvEScJluuOI8S7RW4cpg="
+              title="Den uovervindelige Bozz "
+              imageUrl="https://images.unsplash.com/photo-1581557991964-125469da3b8a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dG95fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
             />
 
             <StoryCard
-              title="En fortryllede hat"
-              imageUrl="https://media.istockphoto.com/id/467285011/vector/cartoon-old-australian-hat.jpg?s=2048x2048&w=is&k=20&c=es2Ww6DEfNSUsc96BIOEd_FGVyhTrikXp3ZwKkL2V8g="
+              title="En fortryllede kran"
+              imageUrl="https://images.unsplash.com/photo-1558852842-e7540873e69a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fHBsYXklMjBjYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400"
             />
           </View>
 

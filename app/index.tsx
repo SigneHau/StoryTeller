@@ -15,13 +15,13 @@ export default function Home() {
 
           <View className="flex-row flex-wrap justify-center">
             <StoryCard
-              title="Den lilla uovervindelige elefant"
-              imageUrl="https://media.istockphoto.com/id/867387008/photo/a-cute-blue-cartoon-elephant.jpg?s=2048x2048&w=is&k=20&c=NdAs19PCVJI0jtjpVwYd5YwVvEScJluuOI8S7RW4cpg="
+              title="Robot vennerne på jagt"
+              imageUrl="https://images.unsplash.com/photo-1681767098264-902c31f26760?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjMwfHx0b3l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400"
             />
 
             <StoryCard
-              title="En fortryllede hat"
-              imageUrl="https://media.istockphoto.com/id/467285011/vector/cartoon-old-australian-hat.jpg?s=2048x2048&w=is&k=20&c=es2Ww6DEfNSUsc96BIOEd_FGVyhTrikXp3ZwKkL2V8g="
+              title="Ninus på eventyr"
+              imageUrl="https://images.unsplash.com/photo-1567169866456-a0759b6bb0c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzkyfHx0b3l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400"
             />
             
           </View>
