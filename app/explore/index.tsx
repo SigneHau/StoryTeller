@@ -60,10 +60,10 @@ export default function Explore() {
             />
           </View>
 
-           <SecondaryButton
-                      text="Begynd"
-                      onPress={() => alert("Du trykkede på knappen!")}
-                    />
+          <SecondaryButton
+            text="Begynd"
+            onPress={() => alert("Du trykkede på knappen!")}
+          />
 
         </View>
       </ScrollView>

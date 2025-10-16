@@ -24,7 +24,7 @@ export default function RootLayout() {
   return (
     // Global tab settings.
     <>
-    {/* Safe area view only needs to be at the top since the header is at the top. Otherwise it would create whitespace below for the other screens */}
+      {/* Safe area view only needs to be at the top since the header is at the top. Otherwise it would create whitespace below for the other screens */}
       <SafeAreaView edges={['top']}>
         <View className='flex-row justify-between items-center px-5 p-2 border border-gray-300'>
           <Text className='text-xl font-extrabold'>StoryTeller</Text>

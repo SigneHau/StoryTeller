@@ -17,9 +17,8 @@ export const CategorySelector = ({ title, selected, onSelect }) => {
     >
       {/* Runde prik øverst til højre */}
       <View
-        className={`absolute top-2 right-2 w-3 h-3 rounded-full border border-[#070707] ${
-          selected ? "bg-[#080808]" : "bg-transparent"
-        }`}
+        className={`absolute top-2 right-2 w-3 h-3 rounded-full border border-[#070707] ${selected ? "bg-[#080808]" : "bg-transparent"
+          }`}
       />
 
       {/* Genre titel */}

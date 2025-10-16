@@ -5,7 +5,7 @@ import { GenreRadioCard } from "../../components/GenreRadioCard";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { KeyWordInput } from "../../components/KeyWordInput";
 import { Maskot } from "../../components/Maskot"
-
+import { GradientButton } from '../../components/GradientButton';
 
 type CategoryKey = "pirate" | "wizard-hat" | "space" | "horse";
 
@@ -21,8 +21,19 @@ export default function CreateStory() {
           {/* Dette er vores maskot */}
           <Maskot />
 
-          {/* Dette er valg af genre */}
+
+          {/* Dette er knap */}
+          <GradientButton
+            text="Upload"
+            colors={["#9f16dfd7", "#f0a70aff"]}
+            onPress={() => console.log("Du har trykket på mig")}
+            icon={<MaterialCommunityIcons name="camera" size={30} color="white" />}
+          />
+
+          {/* Dette er en overskift */}
           <Text className="text-2l font-semibold mb-4">Vælg en genre</Text>
+
+          {/* Dette er genrekortene hvor du kan vælge den runde prik i hjørnet */}
           <View className="flex-row flex-wrap justify-center">
             <GenreRadioCard
               title="Sørøver"
@@ -31,7 +42,6 @@ export default function CreateStory() {
               onSelect={() => setSelectedGenre("pirate")}
             />
 
-            {/* Dette er genrekortene hvor du kan vælge den runde prik i hjørnet */}
             <GenreRadioCard
               title="Fantasi"
               icon={<MaterialCommunityIcons name="wizard-hat" size={60} color="black" />}
