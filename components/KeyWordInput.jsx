@@ -6,7 +6,7 @@ export const KeyWordInput = ({ title }) => {
     return (
         <View className="items-start w-full px-5 pb-5">
             
-            
+     
             <Text className="mt-5 mb-3 text-base font-bold text-left">{title}</Text>
 
             {/* Input felt: p-5 = padding: 20, w-4/5 = width: 80% */}
