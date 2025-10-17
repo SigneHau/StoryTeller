@@ -6,6 +6,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { KeyWordInput } from "../../components/KeyWordInput";
 import { Maskot } from "../../components/Maskot"
 import { GradientButton } from '../../components/GradientButton';
+import {ToolTips} from '../../components/ToolTips'
 
 type CategoryKey = "pirate" | "wizard-hat" | "space" | "horse";
 
@@ -21,7 +22,9 @@ export default function CreateStory() {
           {/* Dette er vores maskot */}
           <Maskot />
 
-
+          <View>
+            <ToolTips tooltipText="Dette er forklaringen på, hvad feltet betyder." />
+          </View>
           {/* Dette er knap */}
           <GradientButton
             text="Upload"

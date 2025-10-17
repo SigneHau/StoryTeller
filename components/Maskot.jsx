@@ -4,11 +4,11 @@ import { View, Image } from "react-native";
 
 export const Maskot = () => (
   // Wrapper omkring billedet (giver lidt luft omkring)
-  <View className="m-2">
+  <View className="m-2 just items-center">
     <Image
       // Importerer billedfilen fra assets-mappen
       source={require('../assets/mascot.png')}
-      // Tailwind-klasser fra NativeWind – angiver bredde og højde
+      
       className="w-32 h-32"
       // Styrer hvordan billedet skal tilpasses (beholder proportioner)
       resizeMode="contain"

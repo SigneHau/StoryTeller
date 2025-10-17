@@ -31,6 +31,8 @@ export default function Home() {
           onPress={() => console.log("Du har trykket på mig")}
           icon={<MaterialCommunityIcons name="plus-circle" size={30} color="white" />}
         />
+
+        
       </View>
     </SafeAreaView>
   )

@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/mascot.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.storyteller"
     },
     "web": {
       "favicon": "./assets/mascot.png",

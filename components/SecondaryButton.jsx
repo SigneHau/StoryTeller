@@ -1,7 +1,7 @@
 import React from "react";
 import { TouchableOpacity, Text, View } from "react-native";
 
-export const SecondaryButton = ({ text, onPress }) => {
+export const SecondaryButton = ({text, onPress }) => {
   return (
     <View className="flex-1 justify-center items-center bg-gray-100">
       <TouchableOpacity

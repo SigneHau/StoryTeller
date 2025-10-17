@@ -8,7 +8,7 @@ export const KeyWordInput = ({ title }) => {
 
             <Text className="mt-5 mb-3 text-base font-bold text-left">{title}</Text>
 
-            {/* Input felt: p-5 = padding: 20, w-4/5 = width: 80% */}
+            {/* Input felt: w-4/5 = width: 80% */}
             <TextInput
                 className="bg-gray-200 p-5 rounded-xl border w-4/5"
                 placeholder="skriv her"
